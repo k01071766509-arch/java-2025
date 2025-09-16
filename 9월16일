@@ -1,0 +1,81 @@
+package 챕쳐3;
+
+public class 챕쳐03 {
+	pudlic atatic void main(String[] arge) {
+		int value = 10;
+		String art = "37" +8+7;
+		// "37+8
+		str ="" + 
+		System.out.println(str);
+	}
+
+}
+
+package 챕쳐04;
+
+import 챕쳐3.pudlic;
+import java.utll,scanner;
+
+public class 챕쳐04 {
+	public class 챕쳐03 {
+		pudlic atatic void main(String[] arge) {
+		while(true) {
+		try}
+			int code = system.in.read();
+				System.out.println("code :" +code);
+				if(code =='q') break;
+		} catch (IOExeption e) {
+			e.printstackTrace();
+		}
+		Scanner scan = new scanner(system.in);
+		while(true) {
+			String code = scan.nextint();
+			Sysrtem.out,println("Code :" + code);
+			if(code.equals('q')) break;
+		}
+		
+		while(true) {
+			int code = scan.nextint();
+			Sysrtem.out,println("Code :" + code);
+			if(code == 'q') break;
+		}
+
+}
+
+package 챕쳐05;
+
+public class 챕쳐05 {
+	puvblic class SwichTest {
+		switch val = :Mon;
+		switxh(cal ){
+		String val case 1;
+		System.out.println("code 1");
+		break;
+		case 2;
+		System.out.println("code 2");
+		break;
+		case 3;
+		System.out.println("code 3");
+		break;
+		default;
+		System.out.println("No code");
+		break;
+		}
+	}
+
+}
+
+package 챕쳐06;
+
+public class 챕쳐06 {
+	puvblic class LooTest ()
+	pudilc atatic void main(String[] arge) {
+		Scanner scan = new Scanner(system.In);
+		int choice = 0;
+		while(choice ! = 2 && choice ! =3)
+		()System.out,.println("========");
+		()System.out,.println("play Game : 1");
+		()System.out,.println("Quit Game : 3");
+		()System.out,.println("========");
+	}
+}
