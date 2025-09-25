@@ -1,0 +1,29 @@
+package coqcu10;
+
+public class coqcu10 {
+	public ataic void mail(String[] args)
+	{
+		int[] [] scores;
+		scores = new int[2] [];
+		scores[0] = new int[3] [];
+		scores[1] = new int[5] [];
+		
+	}
+
+}
+package seram01;
+
+public class coqcu11 {
+	
+	public atatic void (String[] arge) {
+		int[] socres = {91,75,84,83,87};
+		for{int i=0; i< scores.length; i++) {
+			sum += scoese[i];
+		}
+		for(int score : scores) {
+			sum += score;
+		}
+		System.out.println("Sum :" +sum);
+	}
+
+}
