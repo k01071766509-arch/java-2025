@@ -1,0 +1,78 @@
+package chap01;
+
+public class hello {
+	public static void main(String[] arge) {
+		System.out.println("Hello, java");
+	}
+
+}
+package chap02;
+public class RunStatementExaple {
+	public static void main(String[] args) {
+		int x = 1;
+		int y =2;
+		int result = x+ y;
+		System.out.println(result);
+	}
+}
+package chap03;
+
+public class exam02 {
+	public static void main(String[] args) {
+		int hour = 3;
+		int minute = 5;
+		System.out.println(hour + "시간" + minute+ "분");
+		
+		int totalMinute = (hour*60) +minute;
+		System.out.println("총" + totalMinute + "분");
+	}
+
+}
+package chap03;
+
+public class example03 {
+public static void main(String[] args) {
+	int result = value + 10;
+	System.out.println(result);
+
+}
+}
+package chap03;
+
+public class exam04 {
+	public static void main(String[] args) {
+		int x =3;
+		int y=5;
+		System.out.println("x:"+x+", y:"+y);
+	}
+	
+
+}
+package chap03;
+
+public class exam05 {
+	public static void main(String[] args) {
+		int x =3;
+		int y=5;
+		System.out.println("x:" +x+ ",y:"+y);
+		
+		int temp = x;
+		x = y;
+		y=temp;
+		System.out.println("x:"+x+",y:"+y);
+	}
+package chap03;
+
+public class exam06 {
+	public static void main(String[] args) {
+		int hour = 3;
+		int minute =5;
+		System.println(hour + "시간"+"minute"+"분");
+		
+		int totalMinute = (hour*60) + minute;
+		System.out.println("총"+totalMinute+ "분");
+	}
+
+}
+
+
