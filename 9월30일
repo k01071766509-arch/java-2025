@@ -1,0 +1,78 @@
+package 챕쳐06;
+
+public class calcut {
+	int addlnt(int a, int b)
+	{
+		return a+b;
+	}
+	double add(double a, double b)
+	{
+		return a+b;
+	}
+
+}
+package 챕쳐06;
+
+public class car {
+	string company;
+	int maxspeed;
+	int speed;
+	int rpm;
+	
+	public car() {
+		package 챕쳐06;
+
+public class student {
+	int studentNumder;
+	string name;
+	double midscore;
+	double fianlScore;
+	double projetscore;
+	public void SayHello() {
+		System.out.print("Hello !");
+	}
+	
+	public void setMidscore()
+}
+
+package 챕쳐06;
+
+public class 챕쳐06 {
+	public ataic void mail(String[] args) {
+		studnt st1 = new student();
+		st1.satHello();
+	}
+
+}
+
+	}
+	
+	public car(string company, int maxspeesd)
+	{
+		thid.company = company;
+		thid.maxspeed = maxspeed;
+	}
+	void swtMaxspeed( int value) {
+		maxspeed = value;
+	}
+	
+	void showInfo()
+	{
+		System.out.println("company : company");
+		System.out.println("Max speed : + maxspeed");
+		System.out.println("current speed: + speed");
+		System.out.println("current RPM : rpm");
+	}
+ void Hi()
+}
+ 	int value = 0;
+ 	system.out.println("value : + value");
+    car  c= new car("Hyundai"+200); 
+    c.setMaxspeed = 200;
+    c.showInfo();
+    
+    
+    calcul cal = new calcul();
+    int val = cal.addInt(1,3);
+    double vald = cal.addDouble
+    system,out,println("value" +val);
