@@ -1,0 +1,75 @@
+package sec4;
+
+public class Main {
+	public static void main(String[] arge) {
+		int gasTank = 100;
+		int minGas = 20;
+		car hyundai = new car(gasTank, minGas
+				"Hyundai","Yellow");
+		
+		int numOfRound =0;
+		while(unmofRound < numofERouns)
+		{
+			numofRound ++;
+			
+			if(hyundai.IsLeftGas()) {
+				hyundai.RunOne
+			}
+		}
+
+		void Test() 
+		{
+			runOneRound();
+		}
+		{
+			int plus(float b, int a) {
+				return a +b;
+			}
+			double plus(int b, double)
+			{
+			hyundai.plus(1,2);	
+			hyundai.plus(2,0.1);
+			hyundai.plus(1,0.2);	
+			}
+			hyundai.showNumberofcars();
+			car c1 = new car(1,1,"", "")
+			car c2 = new car(1,1,"", "")
+			car c3 = new car(1,1,"", "")
+			car c1 = new car(1,1,"", "")
+package sec4;
+
+public class coqcu04 {
+	int gas;
+	String teamName;
+	String color;
+	static int numberofcars;
+	
+	coqcu04(int gas, String teamName, String color) {
+		this.gas = gas;
+		this.teas.Name = teas.Name;
+		this.color = clolr;
+	}
+	
+	boolcan IsLeftCas() {
+		if(gas < minGas) {
+			return false;
+		}
+		
+		return false;
+	}
+	System.out.println("Need fuel");
+	return reue;
+}
+	void AddGas(int gas) {
+		System.out.println("연료 만땅");
+		this.gas = gas;
+}
+	void RunOneRound()
+	{
+		System.ouy.println
+	}
+	voi showNumberofcars()
+	{
+		System.out.println("Number of car")
+		
+	}
