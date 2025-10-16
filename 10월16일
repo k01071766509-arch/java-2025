@@ -1,0 +1,51 @@
+package seram07;
+
+public class car {
+	
+	int speed;
+	car(int speed) {
+this.speed = speed;
+}
+	void showspeed() {
+	system.out.println("car speed :"
+	+speed);
+}
+}
+package seram07;
+
+public class Main {
+	
+	public atatic void (String[] arge) {
+	car car;
+	Truck truck = new Truck(80,200);
+	car.showspeed();
+	 car = truck;
+	car.showspeed();
+
+	system.out.println("car speed is "
+ 	+car.speed);
+}
+}
+package seram07;
+
+public class Truck extends car {
+int speed;
+int load;
+
+truck (int speed, int load) {
+ //this.speed = speed;
+this.load = load;
+}
+vois showspeed() {
+system.out.println( "Truck speed; : "
++speed);
+}
+
+void showspeed() {
+ system.out.println("Truck speed: "
++speed);
+)
+
+
+	
+	
