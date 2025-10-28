@@ -1,0 +1,194 @@
+package sec4;
+
+public class Main2 {
+	public static void main(String[] arge) {
+		Acc acc;
+		sav sav = new sav(5000);
+		
+		acc = sav;
+		
+		sav.showBal();
+		sav.showBal();
+		
+		System.out.println("sav : "+sav bal);
+		System.out.print("Acc :" + acc.bal);
+	}
+	
+
+}
+package sec4;
+
+public class Acc {
+	int bal;
+	
+	Acc(int bal){
+		this.bal = bal;
+	}
+	void showBal ()
+	System.out.print("sav  bal :" + bal);
+
+}
+package sec4;
+
+public class sav extends Acc {
+	int bal;
+	
+	sav(int bal) {
+		super(bal);
+
+	}
+
+}
+package sec4;
+
+public class animalHospital {
+	public static void main(String[] arge) {
+		animalHospital h = new animalHospital();
+		
+		Dog dog = new Dog(100);
+		
+		h.Checkpatient(dog);
+		h.Healpatient(dog);
+		
+		cat cat = new cat(1);
+		h.checkpatient(cat);
+		h.Heakpatient(cat);
+	}
+		void checkpatient(Dog dog) {
+			if(dog.IsHealty()) {
+					System.out.println("Heathy!");
+			}
+			else {
+				System.out.println("sick!");
+			}
+			
+		}void Healpatient(cat cat) {
+			dof.Heal();
+		}
+		void checkpatient(cat cat) {
+			if(cat.IsHealty()) {
+					System.out.println("Heathy!");
+			}
+			else {
+				System.out.println("sick!");
+			}
+			
+		}void Healpatient(cat cat) {
+			dof.Heal();
+
+}
+package sec4;
+
+public class Dog {static int noramlspeea
+	int runspeed;
+	
+	boolean  IsHealthy() {
+		if(runspeed > normalspeed)
+		return true;
+		else
+			return false;
+	}void Heal() {
+		if(IsHealthy()) {
+			System.out.println("No problem");
+		}
+		else {
+			system.out.print("Run more");
+		}
+	}
+
+}
+package sec4;
+
+public class cat {
+	static int normalHeight = 2;
+	int jumpHeight = jumpHeigh;
+	
+	cat(int jumpHeight) {
+		this.jumpHeight = jumpHeight;
+		
+	}
+	boolean InHealth() {
+		if(jumpHeight > noramlHeight) {
+			return true;
+		}
+		void Heal() {
+			if(InHealth()) {
+					System.out.println
+			}
+		}
+	}
+
+}
+package eaan;
+
+import sec4.Dog;
+import sec4.cat;
+public class NewHosplital {
+	public static void main(String[] arge) {
+		void checkpatient("Healthy!") {
+			if(dog.IsHealty()) {
+					System.out.println("Heathy!");
+			}
+			else {
+				System.out.println("sick!");
+			}
+		  void Healpatient(cat cat) {
+			dof.Heal();
+			
+	}
+
+}
+package eaan;
+
+public class cat extends Animl {
+		static int normalHeight = 2;
+		int jumpHeight = jumpHeigh;
+		
+		cat(int jumpHeight) {
+			this.jumpHeight = jumpHeight;
+			
+		}
+		boolean InHealth() {
+			if(jumpHeight > noramlHeight) {
+				return true;
+			}
+			void Heal() {
+				if(InHealth()) {
+						System.out.println("");
+				}
+			}
+		}
+
+	}
+
+
+}
+package eaan;
+
+public class extends Animl Dog {
+	public class Dog {static int noramlspeea
+		int runspeed;
+		
+		boolean  IsHealthy() {
+			if(runspeed > normalspeed)
+			return true;
+			else
+				return false;
+		}void Heal() {
+			if(IsHealthy()) {
+				System.out.println("No problem");
+			}
+			else {
+				system.out.print("Run more");
+			}
+		}
+
+}
+package eaan;
+
+public class Animal {
+	boolean IsHealthy()
+	return true;
+
+}
+	void Heal() {}
