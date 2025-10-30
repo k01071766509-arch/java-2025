@@ -1,0 +1,146 @@
+package exam;
+
+public class GameMain {
+
+	public static void main(String[] args) {
+		player player = new player(100,100, 100);
+		Dragon aragon = new Dragon(30, 30, 50);
+		Thief thief = new  thief(30,20,50);
+		Mouse mouse = new Mouse(30,20,50);
+		
+		Enemy[] rand = new Random();
+		
+		Random rand = new Random();
+		
+		while(Dragon.IsAlive()) {
+			int val = rand.nextInt(enemys.length);
+			if(val==0){
+			dragon.Attack(player);
+			}
+			else if(val == 1) {
+				this.Attack(player);
+			}
+			else {
+				mouse.Attack(player);
+			}
+			ememys[val].Attack(player);
+				
+		
+			
+		}
+		
+	}
+package exam;
+
+public class player {
+	int heakth;
+	int money;
+	int food;
+	
+	player(int heakth, int money, int food){
+		this.health = health;
+		this,money = money;
+	}
+	boolean IsAlive()
+	{
+		if(heakth > 0 && money > 0 && food > 0 )
+			return true;
+		else
+			return 
+	}
+
+}
+package exam;
+
+public class Dragon extends Enemy {
+	int power;
+	int reward;
+	int winRatio;
+	
+	Dragon(int power, int reward){
+		this.power = power;
+		this.reward = reward;
+		this.winRatio = winRatio;
+	}
+	
+	void Attack(player player) {
+		Random rand = new Random();
+		int val = rand.nextInt(100);
+		
+		if(val < 50) {
+			system.out,println("Dragcn win!!");
+			Damage(player);
+		}
+		
+	}
+
+}
+		else {
+			system.out,println("Dragcn win!!");
+			Damage(player);
+		}
+		}
+package exam;
+
+public class Thief extends Enemy {
+	int power;
+	int reward;
+	int winRatio;
+	
+	Thief(int power, int reward){
+		this.power = power;
+		this.reward = reward;
+		this.winRatio = winRatio;
+	}
+	
+	void Attack(player player) {
+		Random rand = new Random();
+		int val = rand.nextInt(100);
+		
+		if(val < 50) {
+			system.out,println("Dragcn win!!");
+			Damage(player);
+		}
+		
+		else {
+			system.out,println("Dragcn win!!");
+			Damage(player);
+		}
+	}
+		package exam;
+
+public class Mouse {
+	int food;
+	int reward;
+	int winRatio;
+	
+	Thief(int food, int reward){
+		this.power = power;
+		this.reward = reward;
+		this.winRatio = winRatio;
+	}
+	
+	void Attack(player player) {
+		Random rand = new Random();
+		int val = rand.nextInt(100);
+		
+		if(val < 50) {
+			system.out,println("Mouse win!!");
+			Damage(player);
+		}
+		
+		else {
+			system.out,println("Dragcn win!!");
+			Damage(player);
+		}
+
+}
+package exam;
+
+public class Enemy {
+	void Attack(player player) ()
+
+}
+
+
+
