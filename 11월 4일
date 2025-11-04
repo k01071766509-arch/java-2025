@@ -1,0 +1,110 @@
+package caring;
+
+import eaan.Animl;
+
+public class Main {
+	public strtic void main(string[] arge) {
+		int totalRound = 30;
+		int numofRound = 0;
+		Tire tire;
+		
+		Car car = new Car();
+		
+		while(numofRound < totalRound) {
+			numofRoumd++;
+			if(numofRound == 20)
+				Env.isRain = true;
+			System.out.pirntln("wetTire change!!");
+			
+			if(!car.checkTire()) {
+			if(Env.isRain)
+				Tire tire = new wetTire(100, 30);
+			}
+			else: {
+			//Tire tire = new Drytire(100, 15);
+			system.out,println("DryTire change!!");
+			}
+			Tire tire = new Tire(100, 15);
+			car changeTire(tire);
+		
+		}
+			car.Run();
+
+}
+
+package caring;
+
+public class car {
+	Tire tire;
+	
+	
+	void Run() {
+		tire.UseTire();
+	}
+	bool checkTire() {
+		if(tire==null) return false;
+		returm tire.IsAbailable();
+	}
+
+}
+	void changeTire(Tire tire) {
+		this.tire = tire;
+		//System.out.println("change tire!!");
+	}
+package caring;
+
+public interface Tire {
+	int carpacity;
+	int consume;
+	
+	
+	Tire(int capacity, int consume) {
+		this.capacity = capacity;
+		this.consume = consume;
+	}
+	
+	vois UseTire() {
+		capacity -= consume;
+	}
+
+}
+	abstract boolean IsAbailable();
+	
+
+
+}
+package caring;
+
+public class Env {
+	static boolean isRain = false;
+
+}
+package caring;
+
+public class DryTire extends Tire {
+	wetTire( int capacity, int consume) {
+		super( capacity, consume);
+	
+
+}
+	boolean IsAbailable();
+	if(Env.isRain) return false;
+	return capacity - consume > 0;
+
+
+}
+package caring;
+
+public class wetTire extends Tire {
+	wetTire( int capacity, int consume) {
+		super( capacity, consume)
+	}
+	boolean IsAbailable();
+	return capacity - consume > 0;
+
+
+
+}
+
+
+
