@@ -1,0 +1,75 @@
+
+package remtemo;
+
+public class Andio implementa RemoteControl  {
+	int volume;
+	public void TurnOn() {
+		System.out.println("Turn on audio!");
+	}
+	public void SetNolume(int volume) {
+		this.volume = volume;
+		System.out.println("Audio voluem : " +  volume);
+		
+	}
+
+}
+
+
+}
+package remtemo;
+
+public class ronoteControl {
+	publir void TurnOn()
+
+}
+
+package remtemo;
+
+public class Myclass {
+	//Myclass(RemoteControl rc){
+	//re.TurnOn();
+	//re.SetVolume(10);
+	//}
+	
+	void MethodB(RemoteControl rc) {
+		re.Turm
+	}
+
+}package remtemo;
+
+public class RekoteControl {
+
+}
+package remtemo;
+
+public class Main {
+	public static void main(String[] arge) {
+		//MyClass m1 = new MyClass(new Tekevision());
+		//MyClass m1 = new MyClass(new Tekevision());
+		
+		Myclass m3 = new Myclass();
+		m3.MethodB(RemoteComtrol rc)
+	}
+
+}
+package remtemo;
+
+public class Redio {
+	public class Andio {
+		int volume;
+		public void TurnOn() {
+			System.out.println("Turn on audio!");
+		}
+		public void SetNolume(int volume) {
+			this.volume = volume;
+			System.out.println(" Redio voluem :" + volume);
+			
+		}
+
+	}
+
+
+}
+
+
+
