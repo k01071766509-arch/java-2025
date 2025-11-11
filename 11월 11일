@@ -1,0 +1,148 @@
+package exam01;
+
+public class Button {
+	onclickListener listener;
+	
+	public void setonclickListener(onclickListener listener)
+	this.listener = lisetener;
+	}
+	public void Touch() {
+		if(listener != null) {
+			listener.onClick();
+		}
+	}
+	public class onclickListener {
+		void onclick();
+
+	}
+
+}
+package exam01;
+
+public class callListener  implements onclickListener{
+	public void onclick() {
+		System.out.print(String[] args) {
+			Button callBtn = new Button();
+			btn.setonclickListener(new callListener )
+			callBtn.Touch();
+			
+			Button mBtn = new Button();
+			btn.setonclickListener(new MessageListener )
+			mBtn.Touch();
+		}
+	}
+
+}
+package exam01;
+
+public class MessageListener {
+	 implements onclickListener{
+			public void onclick() {
+				system.out,print("send a message")
+			}
+
+}
+package exam01;
+
+public class onclickListener {
+	void onclick();
+
+}
+package exam2;
+
+public class Button {
+	package exam01;
+
+import exam01.onclickListener;
+
+public class Button {
+		onclickListener listener;
+		
+		public void setonclickListener(onclickListener listener)
+		this.listener = lisetener;
+		}
+		public void Touch() {
+			if(listener != null) {
+				listener.onClick();
+			}
+			
+		}
+		public class onclickListener {
+			void onclick();
+		}
+
+	}
+
+}
+package exam2;
+
+import exam01.Button;
+
+public class callListener implemenets Button.onclickListener {
+	public void onclick() {
+		System.out.print(String[] args) {
+			Button callBtn = new Button();
+			btn.setonclickListener(new callListener )
+
+}
+package exam2;
+
+public class main {
+	public strtic voia main(string[] args) {
+		Button callBtn = new Button();
+		callBtn.setonclickListener() {
+			new Buttom.onclickListener() {
+				public vois onClick() {
+					system.out.print("make a phone ");
+				}
+			}
+		}
+		callBtn.Touch();
+	
+}
+package exam2;
+
+public class MessageListener implemenets Button.onclickListener {
+	public void onclick() {
+		system.out,print("send a messagee!!");
+	}
+
+}
+package exam03;
+
+import exam01.Button.onclickListener;
+
+public class Butten {
+onclickListener listener;
+	
+	public void setonclickListener(onclickListener listener)
+	this.listener = lisetener;
+	}
+	public void Touch() {
+		if(listener != null) {
+			listener.onClick();
+		}
+	}
+	public class onclickListener {
+		void onclick();
+
+	}
+
+
+}
+package exam03;
+
+public class main {
+	public strtic voia main(string[] args) {
+		Button callBtn = new Button();
+		callBtn.setonclickListener() {
+			new Buttom.onclickListener() {
+				public vois onClick() {
+					system.out.print("make a phone ");
+				}
+			}
+		}
+		callBtn.Touch();
+	}
+
+}
