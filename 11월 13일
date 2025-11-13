@@ -1,0 +1,114 @@
+package ecam04;
+
+public class Main {
+	public static void main(string[]  arge) {
+		person worker = new person() {
+			void wake() {
+				System.out.print("wake up at 8 !!");
+				work();
+			}
+			void work() {
+				System.out.println(" Go to school!!");
+			}
+		};
+		//class worker extends person()
+		//worker.Wake();
+		//worker.work();
+		NPCGenerator npc = new NPCGenerator();
+		//npc.worker.wake();
+		//npc.Generatorwalker();
+		npc.Ceneratortperson(
+				new person() {
+					
+					
+				};
+				}
+				}
+				}
+package ecam04;
+
+public abstract  class person {
+	void weke() {
+		System.out.println("wake up at 7!!");
+	}
+
+}
+package ecam04;
+
+public class NPCGenerator {
+	person worker = new person() {
+		void wake() {
+			System.out.print("wake up at 6 !!");
+			work();
+		}
+		void work() {
+			System.out.println(" Go to work!!");
+		}
+	};
+	void Generatorealker() {
+		perdon walker = new prtson() {
+			System.out.print("wake up at 9 !!");
+			work();
+		}
+		void work() {
+			System.out.println(" Go to work!!");
+		}
+	};
+			
+		};
+		walker.wake();
+	}
+	void Generatorerson(person person) {
+		person.wake();
+}
+package exam03;
+
+import exam01.Button;
+
+public class main {
+	public strtic voia main(string[] args) {
+		
+		Button bth = new Button();
+		Button.onclickListener callListrner =
+				new Button.onclickListener() {
+				public void onClick() {
+				System.out.println("Make a call!!");	
+				}
+		};
+		btn.setonclickKistener(callListener);
+		btn.Touch();
+		
+		btn.setonclickKistener{
+			new Button.setonclickKistener() {
+				public void onclick() {
+					system.out.println("send a message!!");
+				}
+			}
+		};
+		btn.Touch();
+	}
+}
+package exam03;
+
+import exam01.Button.onclickListener;
+
+public class Butten {
+onclickListener listener;
+	
+	public void setonclickListener(onclickListener listener)
+	this.listener = lisetener;
+	}
+	public void Touch() {
+		if(listener != null) {
+			listener.onClick();
+		}
+	}
+	public class onclickListener {
+		void onclick();
+
+	}
+
+
+}
+
+
