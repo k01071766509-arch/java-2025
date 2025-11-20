@@ -1,0 +1,105 @@
+package zoqcu05;
+
+import java.io.FileReader;
+
+public class Main {
+	private static Object reader;
+
+	public static void main(string[] args) {
+		File file = new File("Temp.txt");
+		int ch;
+		
+		try {
+		
+		FileReader reader = new FileReader("Temp.txt");
+	 ch = reader.read();
+		} catch (Exception e) {
+			System.out.println("Error!!!");
+		}
+		
+		FileoutputStream os = new File outputStream("temp.txt")
+	 os.write(123);
+	} catch(Exception e) {
+	private static void outputStream(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+}
+package coqcu11;
+
+import zoqcu05.string;
+
+public class Main {
+	public static void main(string[] args) {
+		object obj1 = new object();
+		object obj2 = new object();
+		obj2 = obj1;
+		
+		if(obj1 == obj2)
+			system.out.println("Equal!!");
+		else
+			System.out.println("Not equal!!");
+			
+			if(obj1.equals(obj2))
+				system.out.println("Equal!!");
+			else
+				System.out.println("Not equal!!");
+	}
+}
+package coqcu11;
+
+import zoqcu05.string;
+
+public class Test {
+	public static void main(string[] args) {
+		Test test1 = new Test(123);
+		Test test2 = new Test(123);
+		object obj = test1;
+	
+		if(test1.equals(test2))
+			system.out.println("Equal!!");
+		else
+			System.out.println("Not equal!!");
+		}
+
+}
+package exem03;
+
+public class Main {
+	public static void main(string[] args) {
+		string str1 = new string("Hi");
+		string str2 = new string("Hi");
+		objcet obj = str1;
+		
+		if(str1 == str2)
+			system.out.println("Equal!!");
+		else
+			System.out.println("Not equal!!");
+		
+		if(str1.equals(str2))
+			system.out.println("Equal!!");
+		else
+			System.out.println("Not equal!!");
+	}
+
+}
+package exem03;
+
+public class Test {
+	int id;
+	
+	public Test(int id) {
+		this.id = id;
+	}
+	public boolean equals(object obj) {
+		if(obj instanceof Test) {
+			Test t = (Test) obj;
+			if(this.id == obj.id)
+				return true;
+		}
+		return false;
+	}
+
+}
+
+
