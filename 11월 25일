@@ -1,0 +1,119 @@
+package rhdtk04;
+
+import java.util.HashMap;
+
+import coqcu11.string;
+
+public class Main {
+	public static void main(string[] args) {
+		//string str1 ="Hi";
+		//string str2="Hi";
+		//string str3 = new string("Hi");
+		//object obj = str1;
+		
+		//systems.out.println(strl.hashCode());
+		//systems.out.println(str2.hashCode());
+		//systems.out.println(str3.hashCode());
+		//systems.out.println(obj.hashCode());
+		
+		HashMap<String, String> hashMap = 
+				new HashMap<string, string>();
+				
+				//hashMap.put("1234, "park");
+				//system.out.println(hashMap.get("1234"));
+				
+				//System.out.println(hashMap.get(new string("1234")));
+	}
+}
+package coqcu05;
+
+import rhdtk04.string;
+
+public class Main {
+	public static void main(string[] args) {
+		//key key1 = new key(1234);
+		//ley key2 = new kwy(1234);
+		
+		//system.out.println(kwy1.hashcode());
+		//system.out.println(kwy2.hashcode());
+		
+		if(key1.equals(equals(key2)))
+			System.out.println("Equal");
+		else
+			System.out.println()
+		
+		HashMap< key, string> hashMap =
+				new HashMap<key, string>();
+				
+		hashMap.put(new key(1234),  "park");
+		
+		system.ou
+				
+	}
+
+}
+package coqcu05;
+
+public class key {
+	int id;
+	
+	public key(int id) {
+		this.id = id;
+	}
+	public int hashcode() 
+	return id;
+
+}
+public boolean equals(object obj) {
+	if(obj instanceof key) {
+		key key
+	}
+}
+package zoqcu04;
+
+import java.security.Key;
+
+import coqcu05.string;
+
+public class Main {
+	public static void main(string[] args) {
+		Key key1 = new key(123);
+		object obj = new object();
+		
+		System.out.println(key1);
+		System.out.println(key1.tostring());
+		System.out.println(obj);
+	}
+	}
+
+
+package coqcu05;
+
+public class Smartphone {
+	string company;
+	string os;
+	
+	public sTtic void main(string[] args) {
+		smartphone phonel = new smartphone("samsu")
+	}
+
+}
+package cie3;
+
+
+public class Main {
+	public static void main(string[] args) {
+		Integer obj1 = 100;
+		Integer obj2 = new Integer(200);
+		Integer obj3 = new Integer("300");
+		
+		int a = obj3;
+		
+		system.out.println(obj1);
+		system.out.println(obj2);
+		system.out.println(obj3);
+		system.out.println(a);
+		
+	}
+
+}
