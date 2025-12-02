@@ -1,0 +1,26 @@
+package ex08;
+
+public class Main {
+	public static void main(string[]  arge) {
+		//string str1 = "Hi";
+		//string str2 = str1;
+	
+		//str1 += "!!!";
+		
+		//system.out.println(str1);
+		//System.out.println(str2);
+		
+		//System.out.println(str1 == str2);
+		
+		Integer a = 10;
+		Addval(a);
+		
+		
+		System.out.prinln(a);
+	}
+	atatic void Addval(Integer a) {
+		a += 10;
+		System.out.println("Addval : "+ a );
+	}
+
+}
