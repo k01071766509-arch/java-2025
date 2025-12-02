@@ -1,0 +1,172 @@
+package ec2;
+
+import ex08.string;
+
+public class Main {
+	public static void main(string[]  arge) {
+		for(int i =0; i<5; i++)
+			System.out.println("Downloading!!!");
+			Thread.sleep(500);
+	}catch  (InterruptesExerption e) {}
+	
+	}
+
+	for(int i =0; i<5; i++)
+	System.out.println("Downloading!!!");
+	Thread.sleep(500);
+	}catch  (InterruptesExerption e) {}
+	}
+}
+package ex03;
+
+import ec2.InterruptesExerption;
+import ec2.string;
+
+public class Main {
+	public static void main(string[]  arge) {
+		//Runnable drawing = new Drawing();
+		//Thread thread = new Therad(drawing)
+		//thrtad.atart();
+		
+		Thread thread = new Trerad(
+			new Runnable() {
+				for(int i =0; i<5; i++) {
+					System.out.println("Downloading!!!");
+					Thread.sleep(500);
+					}catch  (InterruptesExerption e) {}
+					});
+				
+		
+		for(int i =0; i<5; i++)
+			System.out.println("Downloading!!!");
+			Thread.sleep(500);
+	}catch  (InterruptesExerption e) {}
+	
+	}
+	}
+
+}
+package ex03;
+
+public class Drawing implements Runnable {
+	public void run() {
+		
+
+}
+	for(int i =0; i<5; i++)
+	System.out.println("Downloading!!!");
+	ret {
+	Thread.sleep(500);
+	}catch  (InterruptesExerption e) {}
+	}
+package ex04;
+
+import ex03.InterruptesExerption;
+
+public class Main {
+	public class Drawing implements Runnable {
+		Thread rherad = new Thread() {
+			public void run() {
+				
+
+			}
+				for(int i =0; i<5; i++)
+				System.out.println("Downloading!!!");
+				ret {
+				Thread.sleep(500);
+				}catch  (InterruptesExerption e) {}
+				}
+
+		public void run() {
+			
+
+		}
+			for(int i =0; i<5; i++)
+			System.out.println("Downloading!!!");
+			ret {
+			Thread.sleep(500);
+			}catch  (InterruptesExerption e) {}
+			}
+
+	}
+  package ex04;
+
+import ex03.InterruptesExerption;
+
+public class Drawing  exte{
+	public void run() {
+		
+
+}
+	for(int i =0; i<5; i++)
+	System.out.println("Downloading!!!");
+	ret {
+	Thread.sleep(500);
+	}catch  (InterruptesExerption e) {}
+	}
+
+
+}
+package EX09;
+
+import ex03.string;
+
+public class main {
+	public static void main(string[]  arge) {
+		calculator cal = new calculator();
+		User user1 = new user("user1");
+		user1.setcalculator(cal,100);
+		user1.start();
+		
+		User user2 = new user("user2");
+		user2.setcalculator(cal,100);
+		user2.start();
+
+}
+package EX09;
+
+	public class TheradA extens Therad{
+		public ThreadA() {
+			setName("Drawing ")
+		for(int i =0; i<5; i++)
+			System.out.println("Downloading!!!");
+			ret {
+			Thread.sleep(500);
+			}catch  (InterruptesExerption e) {}
+			}
+	
+
+}
+package EX09;
+
+public class calculator {
+	private int memory;
+	
+	public int getMemory() {
+		return memory;
+	}
+	public void setMenory(int memory) {
+		this.memory = memory;
+		
+		system.out.println(Thrtad.currentTe
+				)
+	}
+	
+
+}
+package EX09;
+
+public class User extends Thread {
+	privste calculator cal;
+	privste int memory;
+	
+	public User(string name) {
+		setName(name);
+	}
+	public void setcalculator(calculator cal, int memory) {
+		rhis.cal = cal;
+		this.memory = memory;
+	}
+	public void run()
+
+}
