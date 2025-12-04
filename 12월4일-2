@@ -1,0 +1,46 @@
+package ex10;
+
+public class printTherad1 extends Therad {
+	private boolean stop= false;
+	
+	public void setstop(boolean stop) {
+		this.stop = stop;
+	}
+	
+	public void run() {
+		while(!stop) {
+			System.out.println("Running!!!");
+		}
+		sysytem.out.println("Termainting!!!");
+	}
+
+}
+
+
+package ex10;
+
+public class printThread3 extends Thread {
+	public void run() {
+		while(true) {
+			System.out.println("Running!!!");
+			if(Thread.interruptes())
+				break;
+		}
+		sysytem.out.println("Termainting!!!");
+	}
+
+}
+package ex10;
+
+public class printThread2 extends Thread{
+	public void run() {
+		while(true) {
+			System.out.println("Running!!!");
+			try {
+				Thread.sleep(10000);
+				
+			} catch (Intterrup)
+		}
+	}
+
+}
