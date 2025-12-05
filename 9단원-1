@@ -1,0 +1,190 @@
+package sec01.exam01;
+
+// 바깥 클래스
+class A {
+    A() { 
+        System.out.println("A 객체가 생성됨"); 
+    }
+
+    // 인스턴스 멤버 클래스
+    class B {
+        B() { 
+            System.out.println("B 객체가 생성됨"); 
+        }
+        int field1;
+        // static int field2;
+        void method1() { }
+        // static void method2() { }
+    }
+
+    // 정적 멤버 클래스
+    static class C {
+        C() { 
+            System.out.println("C 객체가 생성됨"); 
+        }
+        int field1;
+        static int field2;
+        void method1() { }
+        static void method2() { }
+    }
+
+    void method() {
+
+        // 로컬 클래스
+        class D {
+            D() { 
+                System.out.println("D 객체가 생성됨"); 
+            }
+            int field1;
+            // static int field2;
+            void method1() { }
+            // static void method2() { }
+        }
+
+        D d = new D();
+        d.field1 = 3;
+        d.method1();
+    }
+package sec01.exam01;
+
+public class Main {
+    public static void main(String[] args) {
+        A a = new A();
+
+        // 인스턴스 멤버 클래스 객체 생성
+        A.B b = a.new B();
+        b.field1 = 3;
+        b.method1();
+
+        // 정적 멤버 클래스 객체 생성
+        A.C c = new A.C();
+        c.field1 = 3;
+        A.C.field2 = 3;
+        c.method1();
+        A.C.method2();
+
+        // 로컬 클래스 객체 생성을 위한 메소드 호출
+        a.method();
+    }
+}
+}
+package sec01.exam04;
+
+public class Outer {
+
+    // 자바 7 이전
+    public void method1(final int arg) {
+        final int localVariable = 1;
+        // arg = 100;
+        // localVariable = 100;
+
+        class Inner {
+            public void method() {
+                int result = arg + localVariable;
+            }
+        }
+    }
+
+    // 자바 8 이후
+    public void method2(int arg) {
+        int localVariable = 1;
+        // arg = 100;
+        // localVariable = 100;
+
+        class Inner {
+            public void method() {
+                int result = arg + localVariable;
+            }
+        }
+    }
+}
+package sec01.exam05;
+
+public class Outter {
+    String field = "Outter-field";
+    void method() {
+        System.out.println("Outter-method");
+    }
+
+    class Nested {
+        String field = "Nested-field";
+        void method() {
+            System.out.println("Nested-method");
+        }
+
+        void print() {
+            System.out.println(this.field);
+            this.method();
+
+            System.out.println(Outter.this.field);
+            Outter.this.method();
+        }
+    }
+}
+package sec02.exam01;
+
+public class Anonymous {
+
+    // 필드 - 익명 객체 대입
+    Person field = new Person() {
+        void work() {
+            System.out.println("출근합니다.");
+        }
+
+        @Override
+        void wake() {
+            System.out.println("6시에 일어납니다.");
+            work();
+        }
+    };
+
+    void method1() {
+        // 로컬 변수로 대입
+        Person localVar = new Person() {
+            void walk() {
+                System.out.println("산책합니다.");
+            }
+
+            @Override
+            void wake() {
+                System.out.println("7시에 일어납니다.");
+                walk();
+            }
+        };
+
+        // 로컬 변수 사용
+        localVar.wake();
+    }
+
+    void method2(Person person) {
+        person.wake();
+    }
+}
+package sec02.exam01;
+
+public class AnonymousExample {
+    public static void main(String[] args) {
+        Anonymous anony = new Anonymous();
+
+        // 익명 객체 필드 사용
+        anony.field.wake();
+
+        // 익명 객체 로컬 변수 사용
+        anony.method1();
+
+        // 익명 객체 매개값 사용
+        anony.method2(
+            new Person() {
+                void study() {
+                    System.out.println("공부합니다.");
+                }
+
+                @Override
+                void wake() {
+                    System.out.println("8시에 일어납니다.");
+                    study();
+                }
+            }
+        );
+    }
+}
