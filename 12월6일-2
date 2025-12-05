@@ -1,0 +1,59 @@
+package sec01.exam06;
+
+public class MyClassExample {
+    public static void main(String[] args) {
+        System.out.println("1)------------------");
+
+        MyClass myClass1 = new MyClass();
+        myClass1.rc.turnOn();
+        myClass1.rc.setVolume(5);
+
+        System.out.println("2)------------------");
+
+        MyClass myClass2 = new MyClass(new Audio());
+
+        System.out.println("3)------------------");
+
+        MyClass myClass3 = new MyClass();
+        myClass3.methodA();
+
+        System.out.println("4)------------------");
+
+        MyClass myClass4 = new MyClass();
+        myClass4.methodB(new Television());
+    }
+}
+package sec02.exam01;
+
+public class CarExample {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+
+        myCar.run();
+
+        myCar.frontLeftTire = new KumhoTire();
+        myCar.frontRightTire = new KumhoTire();
+
+        myCar.run();
+    }
+}
+package sec02.exam05;
+
+public class Example {
+    public static void main(String[] args) {
+        ImplementationC impl = new ImplementationC();
+
+        InterfaceA ia = impl;
+        ia.methodA();
+        System.out.println();
+
+        InterfaceB ib = impl;
+        ib.methodB();
+        System.out.println();
+
+        InterfaceC ic = impl;
+        ic.methodA();
+        ic.methodB();
+        ic.methodC();
+    }
+}
