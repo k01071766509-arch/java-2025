@@ -1,0 +1,203 @@
+package sec01.exam03;
+
+public class Key {
+    public int number;
+
+    public Key(int number) {
+        this.number = number;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Key) {
+            Key compareKey = (Key) obj;
+            if(this.number == compareKey.number) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+package sec01.exam03;
+
+import java.util.HashMap;
+
+public class KeyExample {
+    public static void main(String[] args) {
+
+        // Key 객체를 식별키로 사용해서 String 값을 저장하는 HashMap 객체 생성
+        HashMap<Key, String> hashMap = new HashMap<Key, String>();
+
+        // 식별키 new Key(1)로 "홍길동"을 저장함
+        hashMap.put(new Key(1), "홍길동");
+
+        // 식별키 new Key(1)로 "홍길동"을 읽어옴
+        String value = hashMap.get(new Key(1));
+        System.out.println(value);
+    }
+}
+package sec01.exam04;
+
+public class Member {
+    public String id;
+
+    public Member(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Member) {
+            Member member = (Member) obj;
+            if(id.equals(member.id)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
+    }
+}
+package sec01.exam05;
+
+import java.util.Date;
+
+public class ToStringExample {
+    public static void main(String[] args) {
+        Object obj1 = new Object();
+        Date obj2 = new Date();
+
+        System.out.println(obj1.toString());
+        System.out.println(obj2.toString());
+    }
+}
+package sec01.exam07;
+
+public class ExitExample {
+    public static void main(String[] args) {
+        for(int i = 0; i < 10; i++) {
+            if(i == 5) {
+                System.exit(0);
+                // break;
+            }
+        }
+        System.out.println("마무리 코드");
+    }
+}
+package sec01.exam08;
+
+public class SystemTimeExample {
+    public static void main(String[] args) {
+
+        long time1 = System.nanoTime();
+
+        int sum = 0;
+        for(int i = 1; i <= 1_000_000; i++) {
+            sum += i;
+        }
+
+        long time2 = System.nanoTime();
+
+        System.out.println("1~1000000까지의 합: " + sum);
+        System.out.println("계산에 " + (time2 - time1) + " 나노초가 소요되었습니다.");
+    }
+}
+package sec01.exam10;
+
+public class ResourcePathExample {
+    public static void main(String[] args) {
+        Class clazz = Car.class;
+
+        String photo1Path = clazz.getResource("photo1.jpg").getPath();
+        String photo2Path = clazz.getResource("images/photo2.jpg").getPath();
+
+        System.out.println(photo1Path);
+        System.out.println(photo2Path);
+    }
+}
+package sec01.exam11;
+
+public class ByteToStringExample {
+    public static void main(String[] args) {
+        byte[] bytes = { 72, 101, 108, 108, 111, 32, 74, 97, 118, 97 };
+
+        String str1 = new String(bytes);
+        System.out.println(str1);
+
+        String str2 = new String(bytes, 6, 4);
+        System.out.println(str2);
+    }
+}
+package sec01.exam12;
+
+import java.io.IOException;
+
+public class KeyboardToStringExample {
+    public static void main(String[] args) throws IOException {
+        byte[] bytes = new byte[100];
+
+        System.out.print("입력: ");
+        int readByteNo = System.in.read(bytes);
+
+        String str = new String(bytes, 0, readByteNo - 2);
+        System.out.println(str);
+    }
+}
+package sec01.exam12;
+
+import java.io.IOException;
+
+public class KeyboardToStringExample {
+    public static void main(String[] args) throws IOException {
+        byte[] bytes = new byte[100];
+
+        System.out.print("입력: ");
+        int readByteNo = System.in.read(bytes);
+
+        String str = new String(bytes, 0, readByteNo - 2);
+        System.out.println(str);
+    }
+}
+package sec01.exam13;
+
+public class StringCharAtExample {
+    public static void main(String[] args) {
+        String ssn = "010624-1230123";
+        char sex = ssn.charAt(7);
+
+        switch (sex) {
+            case '1':
+            case '3':
+                System.out.println("남자 입니다.");
+                break;
+
+            case '2':
+            case '4':
+                System.out.println("여자 입니다.");
+                break;
+        }
+    }
+}
+package sec02.exam01;
+
+import java.text.*;
+import java.util.*;
+
+public class DateExample {
+    public static void main(String[] args) {
+        Date now = new Date();
+
+        String strNow1 = now.toString();
+        System.out.println(strNow1);
+
+        SimpleDateFormat sdf =
+            new SimpleDateFormat("yyyy년 MM월 dd일 hh시 mm분 ss초");
+
+        String strNow2 = sdf.format(now);
+        System.out.println(strNow2);
+    }
+}
+
